@@ -1,4 +1,4 @@
-package br.com.fiap.money_control_api;
+package br.com.fiap.pipoco_motors_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

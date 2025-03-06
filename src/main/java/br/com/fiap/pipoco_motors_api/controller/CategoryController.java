@@ -1,4 +1,4 @@
-package br.com.fiap.money_control_api.controller;
+package br.com.fiap.pipoco_motors_api.controller;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.fiap.money_control_api.model.Category;
+import br.com.fiap.pipoco_motors_api.model.Category;
 
 @RestController
 public class CategoryController {

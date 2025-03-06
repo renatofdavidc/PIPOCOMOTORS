@@ -1,4 +1,4 @@
-package br.com.fiap.money_control_api.model;
+package br.com.fiap.pipoco_motors_api.model;
 
 import java.util.Random;
 
