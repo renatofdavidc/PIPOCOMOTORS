@@ -10,15 +10,17 @@ public class Listing {
     private String plate;
     private String yearModel;
     private String color;
+    private String description;
     private Double value;
 
-    public Listing(Long id, String brand, String name, String plate, String yearModel, String color, Double value) {
+    public Listing(Long id, String brand, String name, String plate, String yearModel, String color, String description, Double value) {
         this.id = Math.abs(new Random().nextLong());
         this.brand = brand;
         this.name = name;
         this.plate = plate;
         this.yearModel = yearModel;
         this.color = color;
+        this.description = description;
         this.value = value;
     }
 
@@ -44,6 +46,10 @@ public class Listing {
 
     public String getColor() {
         return color;
+    }
+
+    public String getDescription() {
+        return description;
     }
 
     public Double getValue() {
